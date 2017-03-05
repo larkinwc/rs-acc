@@ -157,8 +157,8 @@ public class JavaRSAccounts {
             // EXAMPLE RECAPTCHA_COORDINATES.
             // Put your DBC username & password here:
             //Client client = (Client)(new HttpClient(args[0], args[1]));
-            String usernameDBC = "larkinwc";
-            String passwordDBC = "waltonia1";
+            String usernameDBC = "USER";
+            String passwordDBC = "PASS";
             Client client = (Client) (new SocketClient(usernameDBC, passwordDBC));
             client.isVerbose = true;
 
